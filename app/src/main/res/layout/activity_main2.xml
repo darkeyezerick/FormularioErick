@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityFormulario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="Gustavo.itt.AppGustavoFormulario">
+
+    <TextView
+        android:id="@+id/textFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:text="Validación de datos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+    <TextView
+        android:id="@+id/textNombres"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Nombre:"
+        android:textSize="23dp"
+
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textDirecciones"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Direccion:"
+        android:textSize="23dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textTelfonos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Telefono:"
+        android:textSize="23dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Fecha de Nacimiento:"
+        android:textSize="23dp"
+
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/ButtonEditar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="0.14"
+            android:background="@android:color/holo_red_dark"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/ButtonAceptar"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.17"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="Onclick"
+            android:text="Aceptar" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
